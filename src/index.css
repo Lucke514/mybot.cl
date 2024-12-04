@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-grid-primary-100 {
+  background-image: radial-gradient(circle, #ffe1e1 1px, transparent 1px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-margin-top: 4rem;
+}
